@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		newFunction()
+	]
+}
+
+function newFunction() {
+	return {
+		"type": "npm",
+		"script": "prepublishOnly",
+		"problemMatcher": [],
+		"label": "npm: prepublishOnly",
+		"detail": "tsc",
+		"group": {
+			"kind": "build",
+			"isDefault": true
+		}
+	}
+}
